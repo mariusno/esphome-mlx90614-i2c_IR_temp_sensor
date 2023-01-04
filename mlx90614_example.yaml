@@ -5,7 +5,10 @@ esphome:
   includes:
   - custom/mlx90614.h
   libraries:
-  - adafruit/Adafruit-MLX90614-Library
+  - SPI
+  - Wire
+  - adafruit/Adafruit BusIO
+  - adafruit/Adafruit MLX90614 Library
 
 wifi:
   ssid: "<YOUR SID>"
